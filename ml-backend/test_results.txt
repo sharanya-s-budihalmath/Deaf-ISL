@@ -1,0 +1,60 @@
+============================================================
+  ISL Model Accuracy Test
+============================================================
+
+Loading model...
+  ✓ Model loaded
+  ✓ 35 labels loaded: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+Initializing HandLandmarker...
+  ✓ HandLandmarker initialized
+
+Testing 5 random images per class...
+
+  ✓ Class '1': 5/5 correct (100%)
+  ✓ Class '2': 5/5 correct (100%)
+  ✓ Class '3': 5/5 correct (100%)
+  ✓ Class '4': 5/5 correct (100%)
+  ✓ Class '5': 5/5 correct (100%)
+  ✓ Class '6': 5/5 correct (100%)
+  ✓ Class '7': 5/5 correct (100%)
+  ✓ Class '8': 5/5 correct (100%)
+  ✓ Class '9': 5/5 correct (100%)
+  ✓ Class 'A': 5/5 correct (100%)
+  ✓ Class 'B': 5/5 correct (100%)
+  ✓ Class 'C': 5/5 correct (100%)
+  ✓ Class 'D': 5/5 correct (100%)
+  ✓ Class 'E': 5/5 correct (100%)
+  ✓ Class 'F': 5/5 correct (100%)
+  ✓ Class 'G': 5/5 correct (100%)
+  ✓ Class 'H': 5/5 correct (100%)
+  ✓ Class 'I': 5/5 correct (100%)
+  ✓ Class 'J': 5/5 correct (100%)
+  ✓ Class 'K': 5/5 correct (100%)
+  ✓ Class 'L': 5/5 correct (100%)
+  ✓ Class 'M': 5/5 correct (100%)
+  ✓ Class 'N': 4/4 correct (100%) | No hand: 1
+  ✓ Class 'O': 4/5 correct (80%) | Wrong: Z(0.93)
+  ✓ Class 'P': 4/4 correct (100%) | No hand: 1
+  ✓ Class 'Q': 3/3 correct (100%) | No hand: 2
+  ✓ Class 'R': 5/5 correct (100%)
+  ✗ Class 'S': 0/0 correct (0%) | No hand: 5
+  ✓ Class 'T': 4/5 correct (80%) | Wrong: 7(0.68)
+  ✓ Class 'U': 5/5 correct (100%)
+  ✓ Class 'V': 5/5 correct (100%)
+  ✓ Class 'W': 5/5 correct (100%)
+  ✓ Class 'X': 5/5 correct (100%)
+  ✓ Class 'Y': 5/5 correct (100%)
+  ✓ Class 'Z': 5/5 correct (100%)
+
+============================================================
+  OVERALL RESULTS
+============================================================
+  Total tested:     166
+  Correct:          164
+  Wrong:            2
+  No hand detected: 9
+  Accuracy:         98.8%
+============================================================
+
+  ✅ Model is performing EXCELLENTLY!
